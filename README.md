@@ -1,7 +1,6 @@
 # SWAPI SPA
 
-A [re-frame](https://github.com/day8/re-frame) SPA <br>
-with recursive API calls and conditional rendering. <br>
+A [re-frame](https://github.com/day8/re-frame) SPA with recursive API calls and conditional rendering. <br>
 
 Developed in emacs (evil mode) with Cider.
 
