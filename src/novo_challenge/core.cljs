@@ -4,8 +4,7 @@
    [re-frame.core :as rf]
    [novo-challenge.events :as events]
    [novo-challenge.views :as views]
-   [novo-challenge.config :as config]
-   ))
+   [novo-challenge.config :as config]))
 
 
 (defn dev-setup []

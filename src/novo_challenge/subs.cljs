@@ -8,7 +8,6 @@
  (fn [db]
    (:loading-characters db)))
 
-
 (rf/reg-sub
  ::view-id
  (fn [db]

@@ -43,7 +43,6 @@
                                   (utils/keyword->int id)])} (str "🌔  " name)])))]
     (into [:ul.list-wrapper] list-item-vector)))
 
-
 (defn character-data
   "Converts ids in a character map to keywords for easy lookup."
   [id character-list]
@@ -94,7 +93,7 @@
         loading-characters      (rf/subscribe [::subs/loading-characters])
         loading-films           (rf/subscribe [::subs/loading-films])
         film-map                (rf/subscribe [::subs/film-map])
-        characters-map           (rf/subscribe [::subs/character-map])]
+        characters-map          (rf/subscribe [::subs/character-map])]
     (fn []
       (let [character-map (character-data @view-id @characters-map)]
         [:div.container
