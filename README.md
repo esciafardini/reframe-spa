@@ -2,9 +2,6 @@
 
 A [re-frame](https://github.com/day8/re-frame) SPA with recursive API calls and conditional rendering. <br>
 
-Developed in emacs (evil mode) with Cider.
-
-Further solidified my love for Clojure(script) and Re-Frame.
 
 
 
